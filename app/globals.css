@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4fffd;
+  --foreground: #011936;
 }
 
 .dark {
-  --background: #0b1220;
+  --background: #03215e;
   --foreground: #e2e8f0;
 }
 
@@ -56,5 +56,5 @@ body {
 }
 
 .question-card.is-rolling {
-  animation: question-scroll 0.8s ease-in-out infinite;
+  animation: question-scroll 1s ease-in-out 1;
 }
